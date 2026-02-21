@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-# Linear Regression Problem
+# Least Squares Regression Problem
 
 x =  np.array([2,1,0,3,1])
 y = np.array([1,0,1,1,3])
@@ -34,4 +34,5 @@ best_fit = line_of_best_fit(B0, B1, x)
 plt.scatter(x,y)
 plt.plot(best_fit)
 plt.show()
+
 
